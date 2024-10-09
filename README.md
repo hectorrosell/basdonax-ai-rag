@@ -82,5 +82,3 @@ docker-compose up -d
 ```
 
 Ahora mientras que tengamos el Docker/Docker Desktop prendido y mientras que ejecutemos este archivo vamos a poder acceder al RAG en este link: http://localhost:8080
-
-Próximo paso: disfrutar
