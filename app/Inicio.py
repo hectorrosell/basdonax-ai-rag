@@ -5,6 +5,7 @@ st.set_page_config(layout='wide', page_title='Inicio - Basdonax AI RAG', page_ic
 from common.langchain_module import response
 from common.streamlit_style import hide_streamlit_style
 
+
 hide_streamlit_style()
 
 # Título de la aplicación Streamlit

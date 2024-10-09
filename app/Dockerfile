@@ -7,6 +7,15 @@ WORKDIR /app
 # Copia todo el contenido del directorio actual al directorio de trabajo
 COPY . .
 
+RUN pip install transformers
+
+RUN pip install torch
+
+RUN pip install tensorflow
+
+RUN pip install flax
+
+RUN pip install git+https://github.com/huggingface/accelerate
 
 RUN pip install --upgrade pip
 
